@@ -1,0 +1,36 @@
+
+.image{
+    width: 75%;
+}
+textarea{
+    width: 50%;
+    height: 10rem;
+}
+div{
+    text-align: center;
+}
+.img{
+    width: 100%;
+}
+@media (min-width: 100px) {
+    .div{
+        width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 576px) {
+    label{
+        font-size: calc(1em + 0.1vw);
+    }
+}
+h2{
+    text-align: center;
+}
+.body{
+    background-color: #bb7272;
+}
+
+.margin{
+    margin: 2rem;
+}

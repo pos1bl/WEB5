@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+</head>
+<body class="body">
+<h2 class="margin">Завдання №1</h2>
+<div class="margin">
+    <form>
+        <label for="width">Ширина</label>
+        <input id="width" type="number" min="0" required oninvalid="setCustomValidity('Тільки додатні числа')">
+        <br>
+        <br>
+        <label for="height">Висота</label>
+        <input id="height" type="number" min="0" required oninvalid="setCustomValidity('Тільки додатні числа')">
+        <br>
+        <button>Обчислити</button>
+        <br>
+        <label for="perimetr">Периметр</label>
+        <output id="perimetr"></output>
+        <br>
+        <label for="plosha">Площа</label>
+        <output id="plosha"></output>
+        <br>
+        <label for="diagonal">Діагональ</label>
+        <output id="diagonal"></output>
+    </form>
+</div>
+<h2 class="margin">Завдання №2</h2>
+<div class="row" id="images">
+    <div class="col-lg-3 col-sm-12 div">
+        <button><img class="img" id="img.png" src="img.png"></button>
+    </div>
+    <div class="col-lg-3 col-sm-12 div">
+        <button><img class="img" id="img_1.png" src="img_1.png"></button>
+    </div>
+    <div class="col-lg-3 col-sm-12 div">
+        <button><img class="img" id="img_2.png" src="img_2.png"></button>
+    </div>
+    <div class="col-lg-3 col-sm-12 div">
+        <button><img class="img" id="img_3.png" src="img_3.png"></button>
+    </div>
+    <div class="col-12 margin">
+        <img class="image" id="image">
+    </div>
+</div>
+
+<h2 class="margin">Завдання №3</h2>
+<div class="margin">
+    <textarea id="ukr" placeholder="Українською"></textarea>
+    <br>
+    <textarea id="eng" placeholder="Англійською"></textarea>
+</div>
+<h2 class="margin">Завдання №4</h2>
+<div class="margin">
+    <input id="day" type="date">
+    <button onclick="dayOfTheWeek()">Дізнатися</button>
+    <label id="dayName"></label>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
